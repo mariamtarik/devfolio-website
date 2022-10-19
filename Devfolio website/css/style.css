@@ -1,0 +1,683 @@
+body{
+    background-color: #f1f1f1;
+}
+nav{
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: white;
+    background-color:black;
+}
+.navbar-brand{
+    font-size: 25px;
+}
+.navbar a{
+    color: white;
+}
+
+.home-border{
+    position: relative;
+}
+.home-border a::after{
+    content: " ";
+    background-color:white;
+    position: absolute;
+    top: 90%;
+    left:15%;
+    height: 2px;
+    width: 70%;
+}
+.nav-border{
+    position: relative;
+    transition:visibility 1s ease-in ;
+    
+}
+ .nav-border a::after{
+    content: " ";
+    background-color:white;
+    position: absolute;
+    top: 90%;
+    left:15%;
+    height: 2px;
+    width: 0%;
+   transition: width .5s;
+    visibility: hidden;
+
+ }
+ .nav-border:hover a::after{
+     visibility: visible;
+     width: 70%;
+ }
+ .droped{
+     background-color: black;
+     color: white;
+     border-radius: 0;
+     border: none;
+     font-size: 20px;
+     font-weight: 500;
+ }
+ .droped:focus{
+     outline-offset: 0;
+     background-color: black;
+     border: none;
+     box-shadow: 0;
+ }
+ .droped:hover{
+    outline-offset: 0;
+    background-color: black;
+    border: none;
+    outline: none;
+    box-shadow: 0;
+    color: white;
+}
+
+
+.btn-secondary:not(:disabled):not(.disabled).active, .btn-secondary:not(:disabled):not(.disabled):active, .show>.btn-secondary.dropdown-toggle {
+    color: #fff;
+    background-color: black;
+    outline: none;
+    border: transparent;
+}
+header{
+    background-image:url('../images/intro-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+  
+}
+.layer{
+    width: 100%;
+    height: 100%;
+     position: relative;
+    background-color: rgba(0, 0 , 0, 0.6);
+}
+
+.container-about{
+    background-color: #fff;
+  
+}
+.header-h2::after{
+    content:"";
+    animation: 15s typing infinite ;
+  
+}
+@keyframes typing
+{
+    0%{
+        content:"D|"
+    }
+    2%{
+        content: "De|";
+    }
+    4%{
+        content:"Des|"
+    }
+
+    6%
+    {
+        content: "Desi|";
+    }
+    8%{
+        content:"Desig|"
+    }
+    10%
+    {
+        content:"Design|"
+    }
+    12%
+    {
+        content:"Designe|"
+    }
+    14%
+    {
+        content: "Designer|";
+    }
+    16%
+    {
+        content:"Designe|"
+    }
+    18%{
+        content:"Design|"  
+    }
+    20%
+    {
+        content:"Desig|"  
+    }
+    22%
+    {
+        content:"Desi|"  
+    }
+    24%
+    {
+        content:"Desi|"  
+    }
+    25%
+    {
+        content:"Des|"  
+    }
+    26%
+    {
+        content:"De|"  
+    }
+    27%
+    {
+        content:"Dev|"  
+    }
+    28%
+    {
+        content:"Deve|"  
+    }
+    30%
+    {
+        content:"Devel|"  
+    }
+    32%
+    {
+        content:"Develo|"  
+    }
+    34%
+    {
+        content:"Develop|"  
+    }
+    36%
+    {
+        content:"Develope|"  
+    }
+    40%
+    {
+        content:"Developer|"  
+    }
+    42%
+    {
+        content:"Develope|"  
+    }
+    43%
+    {
+        content:"Develop|"  
+    }
+    44%
+    {
+        content:"Develo|"  
+    }
+    45%
+    {
+        content:"Devel|"  
+    }
+    46%
+    {
+        content:"Devel|"  
+    }
+    47%
+    {
+        content:"Deve|"  
+    }
+    48%
+    {
+        content:"Dev|"  
+    }
+    49%
+    {
+        content:"De|"  
+    }
+    44%
+    {
+        content:"D|"  
+    }
+    45%{
+        content: "|";
+    }
+    47%
+    {
+        content:"F|"  
+    }
+    48%
+    {
+        content:"Fr|"  
+    }
+    49%
+    {
+        content:"Fre|"  
+    }
+    50%
+    {
+        content:"Free|"  
+    }
+    52%
+    {
+        content:"Freel|"  
+    }
+    54%
+    {
+        content:"Freela|"  
+    }
+    56%
+    {
+        content:"Freelan|"  
+    }
+    58%
+    {
+        content:"Freelanc|"  
+    }
+    60%
+    {
+        content:"Freelance|"  
+    }
+    62%
+    {
+        content:"Freelancer|"  
+    }
+    63%
+    {
+        content:"Freelance|"  
+    }
+    64%
+    {
+        content:"Freelanc|"  
+    }
+    65%
+    {
+        content:"Freelan|"  
+    }
+    66%
+    {
+        content:"Freela|"  
+    }
+    67%
+    {
+        content:"Freel|"  
+    }
+    68%
+    {
+        content:"Free|"  
+    }
+    69%
+    {
+        content:"Fre|"  
+    }
+    70%
+    {
+        content:"Fr|"  
+    }
+    71%
+    {
+        content:"F|"  
+    }
+    72%
+    {
+        content:"|"  
+    }
+    73%
+    {
+        content:"P|"  
+    }
+    74%
+    {
+        content:"Ph|"  
+    }
+    75%
+    {
+        content:"pho|"  
+    }
+    73%
+    {
+        content:"Phot|"  
+    }
+    74%
+    {
+        content:"Photo|"  
+    }
+    75%
+    {
+        content:"Photog|"  
+    }
+    75%
+    {
+        content:"Photog|"  
+    }
+    75%
+    {
+        content:"Photogr|"  
+    }
+    77%
+    {
+        content:"Photogra|"  
+    }
+    79%
+    {
+        content:"Photograp|"  
+    }
+    81%
+    {
+        content:"Photograph|"  
+    }
+    83%
+    {
+        content:"Photographe|"  
+    }
+    85%
+    {
+        content:"Photographer|"  
+    }
+    86%
+    {
+        content:"Photographe|"  
+    }
+    87%
+    {
+        content:"Photograph|"  
+    }
+    88%
+    {
+        content:"Photograp|"  
+    }
+    90%
+    {
+        content:"Photogra|"  
+    }
+    92%
+    {
+        content:"Photogr|"  
+    }
+    93%
+    {
+        content:"Photog|"  
+    }
+    94%
+    {
+        content:"Photo|"  
+    }
+    95%
+    {
+        content:"Phot|"  
+    }
+    96%
+    {
+        content:"Pho|"  
+    }
+    97%
+    {
+        content:"Ph|"  
+    }
+    98%
+    {
+        content:"P|"  
+    }
+    100%
+    {
+        content:"|"  
+    }
+   
+
+}
+
+
+.title1{
+    font-weight: 500;
+    color: #1e1e1e;
+    font-size: 18px;
+}
+.progress-bar{
+    border-radius: 0;
+    background-color: #0078ff;
+   
+}
+.about-h{
+    position: relative;
+}
+.about-h::after{
+    content: " ";
+    background-color: #0078ff;
+    position: absolute;
+    top: 120%;
+    left: 0;
+    height: 3px;
+    width: 25%;
+    border-radius: 2px;
+}
+.servise-h{
+    font-size: 45px;
+}
+.servise-p{
+    position: relative;
+}
+.servise-p::after{
+    content: " ";
+    background-color: #0078ff;
+    position: absolute;
+    top: 130%;
+    left:47.5%;
+    height: 5px;
+    width: 5%;
+    margin: auto;
+}
+.icon{
+    
+        width: 90px;
+        height: 90px;
+        padding: 30px;
+        border:solid 7px #0078ff;
+        
+        font-size: 30px;
+
+}
+.icon:hover{
+    background-color:rgba(0, 120, 255, 0.6) ;
+    
+    border: solid 10px rgba(211, 218, 226, 0.9);
+}
+.icon:hover i{
+    color: white;
+    box-shadow: 50px;
+}
+
+.icon i{
+    font-size: 35px;
+}
+.content1{
+    border: solid 1px #fff;
+    background-color: #fff;
+    border-radius: 15px;
+}
+.counters{
+    background-image: url('../images/counters-bg.jpg');
+    background-size: cover;
+    background-position: center;
+   
+    background-attachment: fixed;
+}
+.LAYER-counter{
+    width: 100%;
+
+    background-color:rgba(0, 120, 255, 0.6);
+}
+.icon-counter{
+    width: 90px;
+        height: 90px;
+        padding: 30px;
+    border:solid 9px rgba(211, 218, 226, 0.5);
+    font-size: 25px;
+    color: #fff;
+} 
+.icon-counter i{
+    font-size: 30px;
+    color: white;
+}
+.profile-content{
+    border: solid 1px #fff;
+    background-color: #fff;
+}
+.profile-imge {
+    overflow: hidden;
+    transition: transform 1s;
+}
+.profile-imge:hover img{
+transform: scale(1.2,1.2);
+}
+.profile-imge img{
+width: 100%;
+transition: transform 1s;
+}
+.profile-span{
+    color: #0078ff;
+
+}
+.profile-icon{
+    width: 45px;
+    height: 45px;
+    padding: 15px;
+    border:solid 3px #0078ff;
+}
+.profile-icon i{
+color: #0078ff;
+font-size: 20px;
+
+}
+.testimonil{
+    background-image: url('../images/overlay-bg.jpg');
+    background-size: cover;
+    background-position: center;
+   
+    background-attachment: fixed;
+    
+}
+.testimonil-layer{
+    width: 100%;
+
+    background-color:#0078ff99;
+}
+.carousel-indicators li{
+    
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+}
+.carousel-indicators{
+    position: static;
+}
+.blog-imge1 img{
+    width: 100%;
+}
+.blog-content1{
+    border: solid 1px #fff;
+    background-color: #fff;
+}
+.span-imge{
+    width: 40px;
+    border-radius: 50%;
+}
+.blog-content2{
+    
+    background-color: rgba(0,0,0,.03);
+    border: 1px solid rgba(0,0,0,.125);
+
+}
+.blog-imge1{
+    position: relative;
+}
+.blog-imge1::after{
+    content: "TRAVEL ";
+    color: white;
+    font-size: 13px;
+    font-weight: 500;
+    padding-top: 5px;
+    text-align: center;
+    background-color: #0078ff;
+    position: absolute;
+    top: 95%;
+    left:40%;
+    height: 30px;
+    width: 20%;
+    border-radius: 5px;
+}
+.blog-h:hover{
+color: #0078ff;
+}
+.blog-span:hover{
+    color: #0078ff;
+}
+.blog-imge2 img{
+    width: 100%;
+}
+.blog-imge2{
+    position: relative;
+}
+.blog-imge2::after{
+    content: "WEB DESIGN";
+    color: white;
+    font-size: 13px;
+    font-weight: 500;
+    padding-top: 5px;
+    text-align: center;
+    background-color: #0078ff;
+    position: absolute;
+    top: 95%;
+    left:35%;
+    height: 30px;
+    width: 30%;
+    border-radius: 5px;
+}
+.contact{
+  
+        background-image:url('../images/overlay-bg.jpg');
+        background-size: cover;
+        background-position: center;
+      
+ 
+}
+.contact-layer{
+    width: 100%;
+    background-color:rgba(0, 120, 255, 0.6);
+}
+
+.form-control{
+    border-radius: 0;
+   
+}
+.contact-h{
+    position: relative;
+}
+.contact-h::after{
+    content: " ";
+    background-color: #0078ff;
+    position: absolute;
+    top: 110%;
+    left: 5px;
+    height: 3px;
+    width: 25%;
+}
+
+
+.btn-group-lg>.btn, .btn-lg {
+ 
+    border-radius: 5rem;
+}
+.icons{
+    width: 45px;
+    height: 45px;
+    padding: 15px;
+    border:solid 4px #0078ff;
+}
+.icons i{
+    font-size: 20px;
+}
+.icons:hover{
+    background-color:rgba(0, 120, 255, 0.6) ;
+    
+    border: solid 4px rgba(211, 218, 226, 0.9);
+}
+
+.list-contact{
+    list-style: none;
+    padding-left: 0;
+}
+.contact-icon{
+    color: #0078ff;
+}
+
+.footter{
+    background-color: #0062d3;
+   
+}
+span{
+    font-weight: 700;
+}
